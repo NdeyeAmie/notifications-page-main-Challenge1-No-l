@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const notificationNonLu = document.querySelectorAll(".notification.non-lu");
   
     const mettreaJourLeCompteur = () => {
-      const nonLuCompteur = document.querySelectorAll(".notification.non-lu");
+      const nonLuCompteur = document.querySelectorAll(".notification.non-lu").length;
       nombreDeMessNonlu.textContent = nonLuCompteur;
     };
   
